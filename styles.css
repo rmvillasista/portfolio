@@ -64,14 +64,19 @@ body {
         border-radius: 1rem;
     }
 
-    .tab-btn {
-        padding: 0.7rem 0.8rem !important;
-        font-size: 0.75rem !important;
-        white-space: nowrap;
-    }
-
     nav {
         gap: 0.35rem !important;
+        flex-wrap: wrap !important;
+    }
+
+    .tab-btn {
+        flex: 1 1 calc(50% - 0.35rem) !important;
+        min-width: 0 !important;
+        padding: 0.75rem 0.7rem !important;
+        font-size: 0.72rem !important;
+        white-space: normal !important;
+        text-align: center !important;
+        justify-content: center !important;
     }
 
     .project-card,
@@ -141,8 +146,9 @@ body {
     }
 
     .tab-btn {
-        padding: 0.65rem 0.7rem !important;
-        min-width: max-content;
+        flex-basis: calc(50% - 0.35rem) !important;
+        padding: 0.7rem 0.5rem !important;
+        font-size: 0.7rem !important;
     }
 
     .project-card .flex.justify-between.items-start {
