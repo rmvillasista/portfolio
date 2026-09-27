@@ -28,3 +28,4 @@ http://localhost:8000
 - Tailwind CSS is loaded from the CDN.
 - The design includes light/dark mode and tabbed sections.
 - The content reflects my resume details.
+- Currently In-Progress
