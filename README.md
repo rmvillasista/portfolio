@@ -1,6 +1,6 @@
-# Ranny Paul Villasista Portfolio
+# Dev Portfolio
 
-This project is a personal software developer portfolio built from the latest CV details. It presents a concise overview of the developer background, technical skills, core projects, and contact information.
+This project is a personal software developer portfolio built from the my current details. It presents a concise overview of the developer background, technical skills, core projects, and contact information.
 
 ## Project structure
 
@@ -27,4 +27,4 @@ http://localhost:8000
 
 - Tailwind CSS is loaded from the CDN.
 - The design includes light/dark mode and tabbed sections.
-- The content reflects the resume details for Ranny Paul Villasista.
+- The content reflects my resume details.
