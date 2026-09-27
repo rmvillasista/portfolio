@@ -8,20 +8,52 @@ This project is a personal software developer portfolio built from the my curren
 - `styles.css` — styling and visual design
 - `script.js` — tab switching, dark mode toggle, project filtering, and contact form interaction
 
-## Run locally
+## Run locally with Python
 
-Open `index.html` directly in a browser, or serve the folder locally:
+### 1) Open a terminal in the project folder
 
 ```bash
 cd c:/Workstation/projects/portfolio
+```
+
+### 2) Create and activate a virtual environment
+
+Windows PowerShell:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+```
+
+Windows Command Prompt:
+
+```cmd
+python -m venv .venv
+.venv\Scripts\activate.bat
+```
+
+macOS / Linux:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+### 3) Start the local server
+
+```bash
 python -m http.server 8000
 ```
 
-Then visit:
+Then open:
 
 ```text
 http://localhost:8000
 ```
+
+### 4) Stop the server
+
+Press `Ctrl + C` in the terminal.
 
 ## Notes
 
