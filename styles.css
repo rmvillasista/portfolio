@@ -80,24 +80,33 @@ body {
     .tab-nav-shell {
         top: 4rem;
         padding-bottom: 0.25rem;
+        overflow-x: auto !important;
+        -webkit-overflow-scrolling: touch;
+        touch-action: pan-x;
     }
 
     nav {
-        gap: 0.35rem !important;
-        flex-wrap: wrap !important;
-        justify-content: center !important;
-        width: 100% !important;
+        gap: 0.4rem !important;
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        justify-content: flex-start !important;
+        width: max-content !important;
+        min-width: max-content !important;
+        padding-right: 0.5rem !important;
+        scroll-snap-type: x proximity;
     }
 
     .tab-btn {
-        flex: 1 1 calc(50% - 0.35rem) !important;
-        min-width: 0 !important;
-        padding: 0.75rem 0.7rem !important;
+        flex: 0 0 auto !important;
+        min-width: 9.5rem !important;
+        padding: 0.8rem 0.9rem !important;
         font-size: 0.72rem !important;
-        white-space: normal !important;
+        white-space: nowrap !important;
         text-align: center !important;
         justify-content: center !important;
         margin: 0 !important;
+        scroll-snap-align: start;
+        border-radius: 0.75rem 0.75rem 0 0 !important;
     }
 
     .project-card,
